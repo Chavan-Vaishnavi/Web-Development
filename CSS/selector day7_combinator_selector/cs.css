@@ -1,0 +1,22 @@
+/* Combinator selector */
+
+/* descendent Combinator selector */
+div p{
+    color: brown;
+}
+
+/* child  Combinator selector*/
+
+div>p{
+    color: green;
+}
+
+/* adjacent Combinator selector */
+div+h5{
+    color: blue;
+}
+
+/* general Combinator selector */
+div~h5{
+    color: aqua;
+}
