@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
+    <link rel="stylesheet" href="./style.css">
     <style>
         /* internal CSS can be written in head or body but priority give to head */
         h1{
-            color: bisque;
+            color: green !important;
         }
     </style>
 </head>
@@ -15,6 +16,8 @@
     <!-- Always priority gives to inline then internal and then external CSS that's why here h1 takes color giiven in inline CSS -->
     <h1 style="color:darkmagenta">Welcome to CSS</h1>
     <p style="color: red;">CSS is Cascading Style Sheet</p>
+
+    <!-- to add importance or priority to any type of css we add !important -->
 
 </body>
 </html>
