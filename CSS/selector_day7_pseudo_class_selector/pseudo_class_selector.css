@@ -1,0 +1,63 @@
+/* Pseudo class */
+/* 1. Hover */
+button:hover{
+    background-color:greenyellow;
+    color: white;
+    cursor: pointer;
+}
+
+/* 2. Active */
+button:active{
+    background-color: red;
+    color: yellow;
+}
+
+/* 3. Focus */
+input:focus{
+    border:3px solid green;
+    outline:none;
+    background-color: lightyellow;
+}
+
+/* 4. Link (Unvisited Link) */
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+/* 5. Visited Link */
+a:visited{
+    color: purple;
+}
+
+/* 6. First Child */
+li:first-child{
+    color: red;
+    font-weight: bold;
+}
+
+/* 7. Last Child */
+li:last-child{
+    color: green;
+    font-style: italic;
+}
+
+/* 8. Nth Child */
+li:nth-child(2){
+    color: blue;
+    font-size: 20px;
+}
+
+/* 9. Checked */
+input:checked{
+    width:20px;
+    height:20px;
+    accent-color: green;
+}
+
+/* 10. Disabled */
+input:disabled{
+    background-color: lightgray;
+    color: gray;
+    cursor: not-allowed;
+}
