@@ -1,0 +1,42 @@
+/* 1. ::before */
+/* 👉 appears before Web Development */
+h2::before{
+    content:"👉 ";
+    color:blue;
+}
+
+/* 2. ::after */
+/* ✔ appears after Web Development */
+h2::after{
+    content:" ✔";
+    color:green;
+}
+
+/* 3. ::first-letter */
+/* First letter C becomes large, red, and bold */
+.para::first-letter{
+    font-size:40px;
+    color:red;
+    font-weight:bold;
+}
+
+/* 4. ::first-line */
+/* First line of the paragraph becomes blue and italic */
+.para::first-line{
+    color:blue;
+    font-style:italic;
+}
+
+/* 5. ::selection */
+/* Selected text has a black background and white text -- Highlight any text with your mouse.*/
+::selection{
+    background-color:burlywood;
+    color:brown;
+}
+
+/* 6. ::placeholder */
+/* Placeholder text appears gray and italic */
+input::placeholder{
+    color:gray;
+    font-style:italic;
+}
