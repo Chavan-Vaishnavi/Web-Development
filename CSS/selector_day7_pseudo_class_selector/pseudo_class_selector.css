@@ -61,3 +61,7 @@ input:disabled{
     color: gray;
     cursor: not-allowed;
 }
+/* 11.not */
+p:not(.special) {
+    font-style: italic;
+}
