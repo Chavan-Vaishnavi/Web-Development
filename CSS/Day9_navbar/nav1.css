@@ -1,0 +1,27 @@
+h1{
+    text-align:center;
+    margin:20px;
+}
+
+nav{
+    background:black;
+    display:flex;
+    justify-content:space-between;
+    padding:15px 40px;
+}
+
+nav article{
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:24px;
+}
+
+nav a:hover{
+    color:gold;
+    transform:scale(1.2);
+}
