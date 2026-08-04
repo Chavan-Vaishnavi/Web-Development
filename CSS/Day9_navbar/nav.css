@@ -1,0 +1,18 @@
+nav{
+    height:55px;
+    width:100%;
+    background-color:darkslateblue;
+    
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+article{
+    height: 55px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+
+}
